@@ -2,14 +2,8 @@ import math
 from yaspin import yaspin
 from yaspin.spinners import Spinners
 
-# Prompt user for input
 print("""
-
-                                                                                          
-                                                                                        
-                                                                                   
-                                                                                  
-                                                                                      
+                                                                                
    ▒▒▒▒                                                                                   
    ▓▓██▒▒           ____                                  ____        _ _ _     _ 
   ░░██████░░       | __ )  __ _ _ __   __ _ _ __   __ _  / ___| _ __ | (_) |_  | |
@@ -66,7 +60,6 @@ with yaspin(Spinners.simpleDotsScrolling, text="Loading...", color="red") as spi
     
     spinner.stop()
 
-# Calculate the number of files created
 total_lines = line_count + (max_lines_per_file * (file_count - 1))
 number_of_files = math.ceil(total_lines / max_lines_per_file)
 
