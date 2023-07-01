@@ -1,3 +1,6 @@
+# @name: Cawdrey
+# @author: kitsuiwebster
+
 import math
 from yaspin import yaspin
 from yaspin.spinners import Spinners
