@@ -1,4 +1,4 @@
-# @name: Cawdrey
+# @name: Banana Split
 # @author: kitsuiwebster
 
 import math
