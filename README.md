@@ -6,7 +6,31 @@ This Python script splits a large text file into multiple smaller files, based o
 
 ## Prerequisites
 
+### Python
+
 Ensure you have Python 3.6 or higher installed. You can download Python from the official site: [Download Python](https://www.python.org/downloads/)
+
+### Pip
+
+Windows:
+
+`python get-pip.py`
+
+Debian/Ubuntu:
+
+`sudo apt install python3-pip`
+
+Fedora:
+
+`sudo dnf install python3-pip`
+
+CentOS:
+
+`sudo yum install python3-pip`
+
+Arch Linux:
+
+`sudo pacman -S python-pip`
 
 ## Installing Dependencies
 
@@ -26,6 +50,11 @@ git clone https://gitlab.com/kitsuiwebster/banana-split.git
 cd banana-split
 ```
 
-`python3 banana-split.py` or `python banana-split.py`
+Windows:
 
+`python banana-split.py`
+
+Linux: 
+
+`python3 banana-split.py`
 
